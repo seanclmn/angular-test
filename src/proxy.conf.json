@@ -1,0 +1,7 @@
+{
+  "/": {
+    "target": "https://catfact.ninja/",
+    "secure": true,
+    "changeOrigin": true
+  }
+}
