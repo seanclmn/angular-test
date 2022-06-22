@@ -1,6 +1,6 @@
 {
   "/": {
-    "target": "https://catfact.ninja/",
+    "target": "http://localhost:9004/rpc",
     "secure": true,
     "changeOrigin": true
   }

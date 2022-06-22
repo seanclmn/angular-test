@@ -8,7 +8,9 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <button (click)="makecall()">Click me</button>
-<p>{{ fact }}</p>
+<ul>
+  <li *ngFor="let provider of providers">{{ provider }}</li>
+</ul>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
